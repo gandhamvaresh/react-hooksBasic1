@@ -1,0 +1,8 @@
+h1, p {
+  font-family: Lato;
+}
+
+.item-style {
+  border: 1px solid gray;
+  width: 200px;
+}

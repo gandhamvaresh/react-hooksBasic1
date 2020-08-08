@@ -6,3 +6,11 @@ h1, p {
   border: 1px solid gray;
   width: 200px;
 }
+
+.form-field{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  width:300px;
+}

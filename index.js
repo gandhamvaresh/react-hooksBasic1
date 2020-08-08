@@ -3,6 +3,9 @@ import { render } from 'react-dom';
 import Item from "./components/Item";
 import UserItem from "./components/UserItem";
 import useList from "./hooks/useList";
+// import ControlledForms from "./components/forms"
+import UseRefEffect from "./components/useRefEffect"
+
 import './css/style.css';
 
 
@@ -49,6 +52,8 @@ setEditable(!editable);
 
     return (
       <div>
+ {/*     <ControlledForms > */}
+ <UseRefEffect />
         <Item />
         {item.list.map((k,i)=>{ return <UserItem key={i} user={k} 
                                         onClick={removeThisItemHandle}
